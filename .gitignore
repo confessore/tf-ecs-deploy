@@ -1,0 +1,31 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Ignore any .tfvars files that are automatically generated
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Ignore CLI configuration files
+.terraform
+
+# Ignore .tfplan files
+*.tfplan
+
+
+# This .gitignore file will exclude local Terraform 
+# configuration files that are specific to your machine, 
+# as well as any generated state files, log files, 
+# and temporary files. This should help to keep your 
+# Git repository clean and reduce the risk of accidentally 
+# committing sensitive information.
